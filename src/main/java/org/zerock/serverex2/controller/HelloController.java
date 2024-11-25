@@ -16,7 +16,7 @@ public class HelloController {
 
         long time = System.currentTimeMillis();
 
-        return new String[] { "Hello World", Long.toString(time) };
+        return new String[] { "API2 Hello World", Long.toString(time) };
     }
 
     @GetMapping("hello2")
@@ -24,6 +24,6 @@ public class HelloController {
 
         long time = System.currentTimeMillis();
 
-        return new String[] { "Hello World", new Date().toString() };
+        return new String[] { "API2 Hello World", new Date().toString() };
     }
 }
