@@ -9,6 +9,6 @@ public class HealthController {
 
     @GetMapping("")
     public String[] check() {
-        return new String[] {"hello","word"};
+        return new String[] {"sample2","hello","word"};
     }
 }
